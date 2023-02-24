@@ -105,7 +105,7 @@ abstract class BaseActivity : AppCompatActivity(), View.OnClickListener {
         if (TextUtils.isEmpty(msg)) {
             return
         }
-        Toast.makeText(FFmpegApplication.getInstance(), msg, Toast.LENGTH_SHORT).show()
+        Toast.makeText(FFmpegApplication.getInstance(), msg, Toast.LENGTH_LONG).show()
     }
 
     protected fun showSelectFile() {

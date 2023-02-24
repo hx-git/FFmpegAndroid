@@ -215,7 +215,7 @@ class VideoHandleActivity : BaseActivity() {
                     -> {
                         val photo = PATH + File.separator + "hello.png"
                         outputPath = PATH + File.separator + "photoMark.mp4"
-                        commandLine = FFmpegUtil.addWaterMarkImg(srcFile, photo, location, bitRate, offsetXY, outputPath)
+                        commandLine = FFmpegUtil.addWaterMarkImg(srcFile, photo, 2, bitRate, offsetXY, outputPath)
                     }
                     TYPE_GIF// gif
                     -> {

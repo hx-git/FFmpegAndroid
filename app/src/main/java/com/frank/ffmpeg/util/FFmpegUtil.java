@@ -409,6 +409,7 @@ public class FFmpegUtil {
      * @param inputPath  input file
      * @param imgPath    the path of the image
      * @param location   the location in the video(1:top left 2:top right 3:bottom left 4:bottom right)
+     *                   1. 移动
      * @param bitRate    bitRate
      * @param offsetXY   the offset of x and y in the video
      * @param outputPath output file
